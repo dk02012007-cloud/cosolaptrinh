@@ -5,10 +5,13 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <StartupObject></StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="session2\" />
+    <Compile Remove="session2\**" />
+    <EmbeddedResource Remove="session2\**" />
+    <None Remove="session2\**" />
   </ItemGroup>
 
 </Project>

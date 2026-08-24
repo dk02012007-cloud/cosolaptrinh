@@ -7,7 +7,7 @@ namespace cosolaptrinh.buoi01
 {
     internal class baitap1
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Console.WriteLine("Hello, World!");
             Console.WriteLine("chao cac ban!");
@@ -15,6 +15,7 @@ namespace cosolaptrinh.buoi01
         }
     }
 }
+
 
         
 
