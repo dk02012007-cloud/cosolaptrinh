@@ -63,9 +63,34 @@ namespace cosolaptrinh.learnathome.basic
             Console.WriteLine("Generating invoices for customer \"Contoso Corp\" ... \n");
             Console.WriteLine("Invoice: 1021\t\tComplete!");
             Console.WriteLine("Invoice: 1022\t\tComplete!");
-            Console.WriteLine("\nOutput Directory:\t");
+            Console.Write("\nOutput Directory:\t");
+            Console.WriteLine(@"c:\Invoices"); //@ dùng để in ra nguyên cahracter string
 
+            Console.WriteLine(@"    c:\source\repos    
+                      (this is where your code goes)");
 
+            // nối chuỗi bằng cách dùng dấu +   
+            string firstName1 = "Minh Man";
+            string lastName = "Pham";
+            string fullName = lastName + " " + firstName1;
+            Console.WriteLine(fullName);
+            // method 2
+            Console.WriteLine(lastName + " " + firstName1);
+
+            // nối chuỗi bằng cách dùng dấu $ {}
+            string fullName2 = $"{lastName} {firstName1}";
+            Console.WriteLine(fullName2);
+
+            Console.WriteLine(" ");
+            Console.WriteLine(" ");
+
+            int version = 11;
+            string updateText = "Update to Windows";
+            Console.WriteLine($"{updateText} {version}!");
+
+            // sử dụng $ và @ chung dòng, kh cần sử dụng \ hay + để nối chuỗi   
+            string projectName = "First-Project";
+            Console.WriteLine($@"C:\Output\{projectName}\Data");
         }
     }
 }
