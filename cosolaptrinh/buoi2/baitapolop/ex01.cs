@@ -6,7 +6,7 @@ namespace cosolaptrinh.buoi2.baitapolop
 {
     internal class ex01
     {
-        static void Main(string[] args)
+        static void Main3   (string[] args)
         {
             // surface= 4 * pi * radius squared
             // volume= 4 / 3 * pi* radius cubed
@@ -17,6 +17,7 @@ namespace cosolaptrinh.buoi2.baitapolop
             Console.WriteLine($"Ban kinh hinh cau: {radius}");
             Console.WriteLine(  $"Dien tich mat cau: {surface:f2}");
             Console.WriteLine($"The tich hinh cau: {volume:f2}");
+            Console.WriteLine($"Dien tich mat cau: {surface:f2}  The tich hinh cau: {volume:f2} " );
         }
     }
 }
