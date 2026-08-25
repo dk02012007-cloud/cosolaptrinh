@@ -6,7 +6,7 @@ namespace cosolaptrinh.learnathome.basic
 {
     internal class gandulieu
     {
-        static void Main(string[] args)
+        static void Main01(string[] args)
         {
             Console.WriteLine("Day la bài hoc o nha (lan1)!");
 
@@ -91,6 +91,16 @@ namespace cosolaptrinh.learnathome.basic
             // sử dụng $ và @ chung dòng, kh cần sử dụng \ hay + để nối chuỗi   
             string projectName = "First-Project";
             Console.WriteLine($@"C:\Output\{projectName}\Data");
+
+            decimal decimalQuotient = 7.0m / 5;
+            Console.WriteLine($"Decimal quotient: {decimalQuotient}");
+            int value1 = 0;
+            value1 = value1 + 8;
+            value1 += 10;
+            Console.WriteLine(value1);
+
+
+
         }
     }
 }
