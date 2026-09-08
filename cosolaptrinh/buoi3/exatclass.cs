@@ -7,7 +7,7 @@ namespace cosolaptrinh.buoi3
 {
     internal class exatclass
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             /* Console.Write("nhap so thu nhat:");
              double a = double.Parse(Console.ReadLine());
@@ -50,7 +50,7 @@ namespace cosolaptrinh.buoi3
 
             Console.Write("Nhap 1 ky tu: ");
             char c = Console.ReadLine()[0];
-            int ascii_of_a = (int)c;
+            int ascii_of_a = (int)c; 
             if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u')
             {
                 Console.WriteLine("Ky tu vua nhap la nguyen am.");
@@ -59,7 +59,14 @@ namespace cosolaptrinh.buoi3
             {
                 Console.WriteLine("Ky tu vua nhap la phu am .");
             }
-            else if (ascii_of_a >=4)
+            else if (ascii_of_a >=48 && ascii_of_a <= 57)
+            {
+                Console.WriteLine("Ky tu vua nhap la so.");
+            }
+            else
+            {
+                Console.WriteLine("Ky tu vua nhap la ky tu dac biet.");
+            }
 
 
 
