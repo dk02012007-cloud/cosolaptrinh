@@ -59,14 +59,7 @@ namespace cosolaptrinh.buoi3
             {
                 Console.WriteLine("Ky tu vua nhap la phu am .");
             }
-            else if (ascii_of_a >=48 && ascii_of_a <= 57)
-            {
-                Console.WriteLine("Ky tu vua nhap la so.");
-            }
-            else
-            {
-                Console.WriteLine("Ky tu vua nhap la ky tu dac biet.");
-            }
+            else if (ascii_of_a >=4)
 
 
 
