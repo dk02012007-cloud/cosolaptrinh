@@ -7,7 +7,7 @@ namespace cosolaptrinh.buoi3.baitaponha
 {
     internal class b04
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             /*  -Khách hàng bấm phím từ 0 đến 4:
     -1: Gặp tổng đài viên tư vấn thẻ.
@@ -30,7 +30,7 @@ namespace cosolaptrinh.buoi3.baitaponha
                 Console.Write("Phím bấm = ");
                 string input = Console.ReadLine();
                 ketqua = int.TryParse(input, out phim);
-                if (ketqua == true && phim >= 0 && phim <= 4)
+                if (ketqua  && phim >= 0 && phim <= 4)
                 {
                     switch (phim)
                     {
