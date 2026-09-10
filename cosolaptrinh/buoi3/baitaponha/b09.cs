@@ -6,7 +6,7 @@ namespace cosolaptrinh.buoi3.baitaponha
 {
     internal class b09
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
             Console.Write("Nhập GPA: ");
