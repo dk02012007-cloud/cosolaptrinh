@@ -12,7 +12,7 @@ namespace cosolaptrinh.buoi4.homework4
 {
     internal class xucxac
     {
-        public static void Main(string[] args)
+        public static void Main1(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
             Console.WriteLine("""
@@ -31,7 +31,7 @@ namespace cosolaptrinh.buoi4.homework4
             Console.WriteLine("2. Nếu đoán đúng bạn sẽ nhận lại được số tiền cược và 0.95% tiền thắng");
             Console.WriteLine("3. Nếu xúc xắc gieo ra 3 con giống nhau và bạn chọn đúng thì bạn sẽ nhận được 600% số tiền cược");
             Console.WriteLine("4. Nếu bạn đoán sai, bạn sẽ mất số tiền cược");
-            Console.WriteLine("5. Trò chơi sẽ tiếp tục cho đến khi bạn quyết định dừng lại (chọn \"k\" )");
+            Console.WriteLine("5. Trò chơi sẽ tiếp tục cho đến khi bạn quyết định dừng lại (chọn \"q\" )");
             Dice_game();
         }
         public static void Dice_game()
@@ -162,6 +162,7 @@ namespace cosolaptrinh.buoi4.homework4
             Console.WriteLine("Cảm ơn bạn đã chơi. Trò chơi kết thúc.");
             Console.WriteLine($"Số lần chơi: {solanchoi}");
             Console.WriteLine($"Số lần thắng: {solanchoi - solanthua}");
+            Console.WriteLine();
             Console.WriteLine($"Số lần thua: {solanthua}");
 
         }
